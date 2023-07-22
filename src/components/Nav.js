@@ -7,12 +7,12 @@ import navStyles from '../css/navStyles.css'
 
 function Navigation() {
     return (
-        <Container>
-            <Navbar expand="lg">
+        <Container fluid className="header">
+            <Navbar expand="lg" className="">
                 <Col>
                 </Col>
-                <Col className="paralellogram">
-                    <Navbar.Collapse id="basic-navbar-nav">
+                <Col className="">
+                    <Navbar.Collapse className="basic-navbar-nav paralellogram">
                         <Nav className="me-auto">
                             <Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="#link">About</Nav.Link>
