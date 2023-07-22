@@ -1,0 +1,22 @@
+.paralellogram {
+    width: 30px;
+    height: 1%;
+    transform: skew(20deg);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in-out;
+}
+
+.me-auto {
+    margin-left: auto !important;
+
+}
+
+.paralellogram a {
+    transform: skew(-20deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.paralellogram a:hover {
+    transform: skew(-20deg) scale(1.09);
+    transition: all 0.2s ease-in-out;
+}
