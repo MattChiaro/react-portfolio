@@ -1,11 +1,14 @@
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Navbar from 'react-bootstrap/Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//react-bootstrap
+import {Col, Container, Navbar} from 'react-bootstrap';
+
+// Components
 import SlideIn from '../utils/SlideIn';
 import Navigation from './Nav';
 import nameSVG from '../name.svg';
-import '../css/headerStyles.css';
+
+// CSS
+import '../css/header.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Header() {
     return (
