@@ -1,8 +1,11 @@
-import Navigation from "./components/Nav";
+import Header from "./components/Header";
+import React from "react";
+
 
 function App() {
   return (
-    <Navigation />
+    <Header/>
+
   );
 }
 
