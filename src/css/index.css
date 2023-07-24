@@ -341,4 +341,41 @@
   =================
   END NORMALIZE CSS
   =================
-   */
+ */
+
+ .paralellogram {
+  width: 100%;
+  height: 1%;
+  transform: skew(20deg);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+}
+
+.paralellogram a{
+  transform: skew(-20deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.paralellogram a:hover {
+  transform: skew(-20deg) scale(1.09);
+  transition: all 0.2s ease-in-out;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 8%;
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+  h1 {
+      align-items: center;
+      text-align: center;
+      
+  }
+
+}

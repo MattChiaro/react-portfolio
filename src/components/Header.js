@@ -1,5 +1,5 @@
 //react-bootstrap
-import {Col, Container, Navbar} from 'react-bootstrap';
+import { Col, Container, Navbar } from 'react-bootstrap';
 
 // Components
 import SlideIn from '../utils/SlideIn';
@@ -15,14 +15,15 @@ function Header() {
         <Container fluid className="header">
             <Navbar expand="lg">
                 <Col className="col-12 col-lg-4 d-flex justify-content-center">
-                    <img src={nameSVG} alt="Matt Chiaro"/>
+                    <img src={nameSVG} alt="Matt Chiaro" />
                 </Col>
                 <Col>
                 </Col>
                 <Col className="col-12 col-lg-5">
                     <SlideIn>
-                    <Navigation />
-                </SlideIn></Col>
+                        <Navigation />
+                    </SlideIn>
+                </Col>
 
             </Navbar>
         </Container>
