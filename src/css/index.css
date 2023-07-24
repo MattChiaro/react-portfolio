@@ -351,7 +351,7 @@
   transition: all 0.5s ease-in-out;
 }
 
-.paralellogram a{
+.paralellogram a {
   transform: skew(-20deg);
   transition: all 0.5s ease-in-out;
 }
@@ -360,6 +360,7 @@
   transform: skew(-20deg) scale(1.09);
   transition: all 0.2s ease-in-out;
 }
+
 
 .footer {
   position: absolute;
