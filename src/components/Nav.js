@@ -16,7 +16,6 @@ function Navigation() {
                 <Col className="col-12 col-lg-6">
                     <Navbar className="basic-navbar-nav paralellogram">
                         <Nav className="me-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="#link">About</Nav.Link>
                             <Nav.Link href="#link">Portfolio</Nav.Link>
                             <Nav.Link href="#link">Resume</Nav.Link>
