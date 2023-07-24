@@ -1,5 +1,6 @@
 //react-bootstrap
-import { Col, Container, Navbar } from 'react-bootstrap';
+import { Col, Container, Navbar} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 // Components
 import SlideIn from '../utils/SlideIn';
@@ -15,7 +16,8 @@ function Header() {
         <Container fluid className="header">
             <Navbar expand="lg">
                 <Col className="col-12 col-lg-4 d-flex justify-content-center">
-                    <img src={nameSVG} alt="Matt Chiaro" />
+                    <Link to="/"><img src={nameSVG} alt="Matt Chiaro"/></Link>
+                    
                 </Col>
                 <Col>
                 </Col>

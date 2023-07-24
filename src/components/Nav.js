@@ -1,5 +1,6 @@
 //React bootstrap
 import {Nav, Navbar} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 // CSS
 import '../css/nav.css';
@@ -9,10 +10,10 @@ function Navigation() {
     return (
         <Navbar className="basic-navbar-nav paralellogram">
             <Nav className="me-auto">
-                <Nav.Link href="#link">About</Nav.Link>
-                <Nav.Link href="#link">Portfolio</Nav.Link>
-                <Nav.Link href="#link">Resume</Nav.Link>
-                <Nav.Link href="#link">Contact</Nav.Link>
+                <Nav.Link><Link className="unskew nav-link" to="/about">About</Link></Nav.Link>
+                <Nav.Link><Link className="unskew nav-link" to="/portfolio">Portfolio</Link></Nav.Link>
+                <Nav.Link><Link className="unskew nav-link" to="/resume">Resume</Link></Nav.Link>
+                <Nav.Link><Link className="unskew nav-link" to="/contact">Contact</Link></Nav.Link>
             </Nav>
         </Navbar>
     );
