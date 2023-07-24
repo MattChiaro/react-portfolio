@@ -9,7 +9,6 @@ import nameSVG from '../name.svg';
 
 // CSS
 import '../css/header.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Header() {
     return (
