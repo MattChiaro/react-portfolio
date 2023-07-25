@@ -19,6 +19,27 @@
         "image": "jate",
         "repoLink": "https://github.com/MattChiaro/pwa-text-editor",
         "liveLink": "https://chiaro-jate-pwa-23304ee7b540.herokuapp.com/"
+    },
+    {
+        "title": "Employee Manager",
+        "desc": "A CLI App to monitor and manage your employees.",
+        "image": "sqlEmployees",
+        "repoLink": "https://github.com/MattChiaro/sql-employee-tracker"
+    },
+    {
+        "title": "Weather Dashboard",
+        "desc": "ANOTHER weather app. Will still rain on your parade.",
+        "image": "weather",
+        "repoLink": "https://github.com/MattChiaro/weather-dashboard",
+        "liveLink": "https://mattchiaro.github.io/weather-dashboard/"
+    },
+    {
+        "title": "Note Taker",
+        "desc": "A simple note taking app.",
+        "image": "noteTaker",
+        "repoLink": "https://github.com/MattChiaro/express-note-taker",
+        "liveLink": "https://afternoon-shore-52649-757051be096a.herokuapp.com/"
+
     }
 
 ]
