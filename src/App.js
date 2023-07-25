@@ -1,11 +1,12 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Project from "./components/Project";
-import About from "./pages/About";
 
+import About from "./pages/About";
+import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
 // CSS
@@ -20,7 +21,7 @@ function App() {
 
         <Routes>
           <Route
-            path="/react-portfolio"
+            path="/"
             element={<Home />}
           />
           <Route
@@ -34,6 +35,10 @@ function App() {
           <Route
             path="/about"
             element={<About />}
+            />
+            <Route
+            path="/resume"
+            element={<Resume />}
             />
           <Route 
             path="*"
