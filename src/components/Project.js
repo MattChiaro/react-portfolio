@@ -2,12 +2,15 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
+import SlideIn from '../utils/SlideIn';
+
 import {Github, BrowserChrome} from 'react-bootstrap-icons';
 
 import projects from '../utils/projects.json';
 
 function Projects() {
   return (
+    <SlideIn>
     <Row xs={1} md={3} className="g-4">
       {projects.map(({title, image, desc, repoLink, liveLink}) => (
         <Col>
@@ -24,7 +27,7 @@ function Projects() {
           </Card>
         </Col>
       ))}
-    </Row>
+    </Row></SlideIn>
   );
 }
 
