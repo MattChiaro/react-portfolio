@@ -15,7 +15,7 @@ function Header() {
         <Container fluid className="header">
             <Navbar expand="lg">
                 <Col className="col-12 col-lg-4 d-flex justify-content-center">
-                    <Link to="/"><img src={nameSVG} alt="Matt Chiaro"/></Link>
+                    <Link to="/react-portfolio"><img src={nameSVG} alt="Matt Chiaro"/></Link>
                     
                 </Col>
                 <Col>
