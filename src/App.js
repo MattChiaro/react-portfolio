@@ -3,6 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Project from "./components/Project";
+
+// CSS
+import './css/index.css';
+
 
 function App() {
   return (
@@ -11,14 +16,13 @@ function App() {
         <Header />
 
         <Routes>
-
           <Route
             path="/"
             element={<Home />}
           />
           <Route
-            path="/about"
-            element={<h1>About</h1>}
+            path="/portfolio"
+            element={<Project />}
           />
 
         </Routes>
