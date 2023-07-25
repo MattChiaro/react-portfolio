@@ -8,7 +8,7 @@
     },
     {
         "title": "What's That Noise?",
-        "desc": "A dynamic user app to find concerts and events in your city.",
+        "desc": "A dynamic user app to find events in your city.",
         "image": "images/whatsThatNoise.png",
         "repoLink": "https://github.com/MattChiaro/whats-that-noise",
         "liveLink": "https://mattchiaro.github.io/whats-that-noise/"
