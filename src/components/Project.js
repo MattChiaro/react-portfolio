@@ -11,7 +11,7 @@ function Projects() {
   return (
 
     <SlideIn>
-      <Container>
+      <Container className='projects'>
         <Row xs={1} md={3} className="g-4">
           {projects.map(({ title, image, desc, repoLink, liveLink }) => (
             <Col>
