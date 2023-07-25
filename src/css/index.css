@@ -4,6 +4,7 @@
   transform: skew(20deg);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   transition: all 0.5s ease-in-out;
+  background-color: #fff;
 }
 
 .paralellogram a {
@@ -18,9 +19,10 @@
 
 
 .footer {
-  position: absolute !important;
+  position: fixed !important;
   bottom: 0;
   height: 8%;
+  margin-top: 10%;
 }
 
 .content {
@@ -32,6 +34,8 @@
 .typewriter {
   font-size: 36px;
 }
+
+
 
 
 @media screen and (max-width: 992px) {
