@@ -2,30 +2,23 @@
     {
         "title": "Cache Me Outside",
         "desc": "The ultimate scavenger hunt - Cache me Outside!",
-        "image": "/images/cacheMeOutside.png",
+        "image": "cacheMeOutside",
         "repoLink": "https://github.com/StephenCodesStuff/Cache-Me-Outside",
         "liveLink": "https://cache-me-outside-aaacc989ab5f.herokuapp.com/"
     },
     {
         "title": "What's That Noise?",
         "desc": "A dynamic user app to find events in your city.",
-        "image": "images/whatsThatNoise.png",
+        "image": "whatsThatNoise",
         "repoLink": "https://github.com/MattChiaro/whats-that-noise",
         "liveLink": "https://mattchiaro.github.io/whats-that-noise/"
     },
     {
-        "title": "",
-        "desc": "",
-        "image": "",
-        "repoLink": "",
-        "liveLink": ""
-    },
-    {
-        "title": "",
-        "desc": "",
-        "image": "",
-        "repoLink": "",
-        "liveLink": ""
+        "title": "J.A.T.E",
+        "desc": "A text editor that lives within the browser.",
+        "image": "jate",
+        "repoLink": "https://github.com/MattChiaro/pwa-text-editor",
+        "liveLink": "https://chiaro-jate-pwa-23304ee7b540.herokuapp.com/"
     }
 
 ]

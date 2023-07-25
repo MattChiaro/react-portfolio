@@ -16,7 +16,7 @@ function Projects() {
           {projects.map(({ title, image, desc, repoLink, liveLink }) => (
             <Col>
               <Card>
-                <Card.Img variant="top" src={image} />
+                <Card.Img variant="top" src={require(`../images/${image }.png`)} />
                 <Card.Body>
                   <Card.Title>{title}</Card.Title>
                   <Card.Text>
