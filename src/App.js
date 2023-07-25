@@ -5,6 +5,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Project from "./components/Project";
 
+import Contact from "./pages/Contact";
+
 // CSS
 import './css/index.css';
 
@@ -24,7 +26,10 @@ function App() {
             path="/portfolio"
             element={<Project />}
           />
-
+          <Route
+            path="/contact"
+            element={<Contact />}
+          />
         </Routes>
         <Footer />
       </Router>
