@@ -17,8 +17,10 @@
     "react-scripts": "5.0.1",
     "typewriter-effect": "^2.20.1",
     "web-vitals": "^2.1.4"
+    
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.7"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -45,6 +47,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://mattchiaro.github.io/react-portfolio"
+  }
 }
