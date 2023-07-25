@@ -18,12 +18,20 @@
 
 
 .footer {
-  position: absolute;
+  position: absolute !important;
   bottom: 0;
   height: 8%;
-
 }
 
+.content {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 500px;
+}
+
+.typewriter {
+  font-size: 36px;
+}
 
 
 @media screen and (max-width: 992px) {
