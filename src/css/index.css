@@ -40,7 +40,13 @@
   margin-bottom: 10%;
 }
 
+svg:hover {
+  transform: scale(1.2);
+}
 
+.card:hover {
+  transform: scale(1.1);
+}
 
 @media screen and (max-width: 992px) {
 
