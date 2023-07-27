@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d2e9d7e8.css",
-    "main.js": "/react-portfolio/static/js/main.df662686.js",
-    "static/media/matt.jpg": "/react-portfolio/static/media/matt.2d175369bb62856c4018.jpg",
-    "static/media/weather.png": "/react-portfolio/static/media/weather.319b418c98d1ddd82b98.png",
-    "static/media/whatsThatNoise.png": "/react-portfolio/static/media/whatsThatNoise.aed881abe14d93faa21a.png",
-    "static/media/cacheMeOutside.png": "/react-portfolio/static/media/cacheMeOutside.af8244efedeec03220b2.png",
-    "static/media/jate.png": "/react-portfolio/static/media/jate.8958ede5630fb03e2dcc.png",
-    "static/media/noteTaker.png": "/react-portfolio/static/media/noteTaker.ac77fc429b17a00307f1.png",
-    "static/media/sqlEmployees.png": "/react-portfolio/static/media/sqlEmployees.f354647f419b422db31b.png",
-    "static/media/name.svg": "/react-portfolio/static/media/name.0ea27c8e7345ef0ae9961af05a85825d.svg",
-    "static/media/ChiaroResume.pdf": "/react-portfolio/static/media/ChiaroResume.aa176fb4992873058690.pdf",
-    "index.html": "/react-portfolio/index.html",
-    "main.d2e9d7e8.css.map": "/react-portfolio/static/css/main.d2e9d7e8.css.map",
-    "main.df662686.js.map": "/react-portfolio/static/js/main.df662686.js.map"
+    "main.css": "/static/css/main.d2e9d7e8.css",
+    "main.js": "/static/js/main.92b0eda5.js",
+    "static/media/matt.jpg": "/static/media/matt.2d175369bb62856c4018.jpg",
+    "static/media/weather.png": "/static/media/weather.319b418c98d1ddd82b98.png",
+    "static/media/whatsThatNoise.png": "/static/media/whatsThatNoise.aed881abe14d93faa21a.png",
+    "static/media/cacheMeOutside.png": "/static/media/cacheMeOutside.af8244efedeec03220b2.png",
+    "static/media/jate.png": "/static/media/jate.8958ede5630fb03e2dcc.png",
+    "static/media/noteTaker.png": "/static/media/noteTaker.ac77fc429b17a00307f1.png",
+    "static/media/sqlEmployees.png": "/static/media/sqlEmployees.f354647f419b422db31b.png",
+    "static/media/name.svg": "/static/media/name.0ea27c8e7345ef0ae9961af05a85825d.svg",
+    "static/media/ChiaroResume.pdf": "/static/media/ChiaroResume.aa176fb4992873058690.pdf",
+    "index.html": "/index.html",
+    "main.d2e9d7e8.css.map": "/static/css/main.d2e9d7e8.css.map",
+    "main.92b0eda5.js.map": "/static/js/main.92b0eda5.js.map"
   },
   "entrypoints": [
     "static/css/main.d2e9d7e8.css",
-    "static/js/main.df662686.js"
+    "static/js/main.92b0eda5.js"
   ]
 }
