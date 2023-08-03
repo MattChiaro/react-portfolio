@@ -34,11 +34,11 @@
         "liveLink": "https://mattchiaro.github.io/weather-dashboard/"
     },
     {
-        "title": "Note Taker",
-        "desc": "A simple note taking app.",
-        "image": "noteTaker",
-        "repoLink": "https://github.com/MattChiaro/express-note-taker",
-        "liveLink": "https://afternoon-shore-52649-757051be096a.herokuapp.com/"
+        "title": "The Fridge",
+        "desc": "Social Media - Centralized.",
+        "image": "theFridge",
+        "repoLink": "https://github.com/MattChiaro/the-fridge",
+        "liveLink": "https://the-fridge-social-f821764e88b1.herokuapp.com/"
 
     }
 
