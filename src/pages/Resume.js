@@ -24,7 +24,7 @@ function Resume() {
             </ul>
             </div>
                 <div className="col-12 col-md-6 d-flex justify-content-center">
-                   <a href={ChiaroResume} download="Resume" target><Button>Download My Resume</Button></a>
+                   <a href={ChiaroResume} download="Matt Chiaro - Resume" target><Button>Download My Resume</Button></a>
                 </div>
             </div>
             </Container>
